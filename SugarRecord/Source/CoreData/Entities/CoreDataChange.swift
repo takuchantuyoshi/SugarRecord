@@ -2,9 +2,9 @@ import Foundation
 
 internal enum CoreDataChange<T> {
     
-    case update(Int, T)
-    case delete(Int, T)
-    case insert(Int, T)
+    case update(IndexPath, T)
+    case delete(IndexPath, T)
+    case insert(IndexPath, T)
     
     internal func object() -> T {
         switch self {
@@ -14,7 +14,7 @@ internal enum CoreDataChange<T> {
         }
     }
     
-    internal func index() -> Int {
+    internal func indexPath() -> IndexPath {
         switch self {
         case .update(let index, _): return index
         case .delete(let index, _): return index
