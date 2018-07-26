@@ -8,91 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		237FBA2C1D9C0AD000D87AA3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA171D9C0AD000D87AA3 /* Request.swift */; };
-		237FBA2E1D9C0AD000D87AA3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA171D9C0AD000D87AA3 /* Request.swift */; };
-		237FBA301D9C0AD000D87AA3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA171D9C0AD000D87AA3 /* Request.swift */; };
 		237FBA341D9C0AD000D87AA3 /* RequestObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA181D9C0AD000D87AA3 /* RequestObservable.swift */; };
-		237FBA361D9C0AD000D87AA3 /* RequestObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA181D9C0AD000D87AA3 /* RequestObservable.swift */; };
-		237FBA381D9C0AD000D87AA3 /* RequestObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA181D9C0AD000D87AA3 /* RequestObservable.swift */; };
 		237FBA3C1D9C0AD000D87AA3 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA191D9C0AD000D87AA3 /* Storage.swift */; };
-		237FBA3E1D9C0AD000D87AA3 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA191D9C0AD000D87AA3 /* Storage.swift */; };
-		237FBA401D9C0AD000D87AA3 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA191D9C0AD000D87AA3 /* Storage.swift */; };
 		237FBA441D9C0AD000D87AA3 /* StorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1B1D9C0AD000D87AA3 /* StorageError.swift */; };
-		237FBA461D9C0AD000D87AA3 /* StorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1B1D9C0AD000D87AA3 /* StorageError.swift */; };
-		237FBA481D9C0AD000D87AA3 /* StorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1B1D9C0AD000D87AA3 /* StorageError.swift */; };
 		237FBA4C1D9C0AD000D87AA3 /* RequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1D1D9C0AD000D87AA3 /* RequestExtension.swift */; };
-		237FBA4E1D9C0AD000D87AA3 /* RequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1D1D9C0AD000D87AA3 /* RequestExtension.swift */; };
-		237FBA501D9C0AD000D87AA3 /* RequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1D1D9C0AD000D87AA3 /* RequestExtension.swift */; };
 		237FBA541D9C0AD000D87AA3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1F1D9C0AD000D87AA3 /* Logger.swift */; };
-		237FBA561D9C0AD000D87AA3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1F1D9C0AD000D87AA3 /* Logger.swift */; };
-		237FBA581D9C0AD000D87AA3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1F1D9C0AD000D87AA3 /* Logger.swift */; };
 		237FBA5C1D9C0AD000D87AA3 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA211D9C0AD000D87AA3 /* Context.swift */; };
-		237FBA5E1D9C0AD000D87AA3 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA211D9C0AD000D87AA3 /* Context.swift */; };
-		237FBA601D9C0AD000D87AA3 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA211D9C0AD000D87AA3 /* Context.swift */; };
 		237FBA641D9C0AD000D87AA3 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA221D9C0AD000D87AA3 /* Entity.swift */; };
-		237FBA661D9C0AD000D87AA3 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA221D9C0AD000D87AA3 /* Entity.swift */; };
-		237FBA681D9C0AD000D87AA3 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA221D9C0AD000D87AA3 /* Entity.swift */; };
 		237FBA6C1D9C0AD000D87AA3 /* NSPredicateConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA231D9C0AD000D87AA3 /* NSPredicateConvertible.swift */; };
-		237FBA6E1D9C0AD000D87AA3 /* NSPredicateConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA231D9C0AD000D87AA3 /* NSPredicateConvertible.swift */; };
-		237FBA701D9C0AD000D87AA3 /* NSPredicateConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA231D9C0AD000D87AA3 /* NSPredicateConvertible.swift */; };
 		237FBA741D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA241D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift */; };
-		237FBA761D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA241D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift */; };
-		237FBA781D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA241D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift */; };
 		237FBA7C1D9C0AD000D87AA3 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA251D9C0AD000D87AA3 /* Requestable.swift */; };
-		237FBA7E1D9C0AD000D87AA3 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA251D9C0AD000D87AA3 /* Requestable.swift */; };
-		237FBA801D9C0AD000D87AA3 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA251D9C0AD000D87AA3 /* Requestable.swift */; };
 		237FBA841D9C0AD000D87AA3 /* DirUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA271D9C0AD000D87AA3 /* DirUtils.swift */; };
-		237FBA861D9C0AD000D87AA3 /* DirUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA271D9C0AD000D87AA3 /* DirUtils.swift */; };
-		237FBA881D9C0AD000D87AA3 /* DirUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA271D9C0AD000D87AA3 /* DirUtils.swift */; };
 		237FBA8C1D9C0AD000D87AA3 /* VersionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA291D9C0AD000D87AA3 /* VersionController.swift */; };
-		237FBA8E1D9C0AD000D87AA3 /* VersionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA291D9C0AD000D87AA3 /* VersionController.swift */; };
-		237FBA901D9C0AD000D87AA3 /* VersionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA291D9C0AD000D87AA3 /* VersionController.swift */; };
 		237FBA941D9C0AD000D87AA3 /* VersionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA2A1D9C0AD000D87AA3 /* VersionProvider.swift */; };
-		237FBA961D9C0AD000D87AA3 /* VersionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA2A1D9C0AD000D87AA3 /* VersionProvider.swift */; };
-		237FBA981D9C0AD000D87AA3 /* VersionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA2A1D9C0AD000D87AA3 /* VersionProvider.swift */; };
 		237FBAAD1D9C0ADC00D87AA3 /* CoreDataChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA9D1D9C0ADC00D87AA3 /* CoreDataChange.swift */; };
-		237FBAAE1D9C0ADC00D87AA3 /* CoreDataChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA9D1D9C0ADC00D87AA3 /* CoreDataChange.swift */; };
-		237FBAAF1D9C0ADC00D87AA3 /* CoreDataChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA9D1D9C0ADC00D87AA3 /* CoreDataChange.swift */; };
 		237FBAB11D9C0ADC00D87AA3 /* CoreDataContextParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA9E1D9C0ADC00D87AA3 /* CoreDataContextParent.swift */; };
-		237FBAB21D9C0ADC00D87AA3 /* CoreDataContextParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA9E1D9C0ADC00D87AA3 /* CoreDataContextParent.swift */; };
-		237FBAB31D9C0ADC00D87AA3 /* CoreDataContextParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA9E1D9C0ADC00D87AA3 /* CoreDataContextParent.swift */; };
 		237FBAB51D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA9F1D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift */; };
-		237FBAB61D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA9F1D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift */; };
-		237FBAB71D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA9F1D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift */; };
 		237FBAB91D9C0ADC00D87AA3 /* CoreDataObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA01D9C0ADC00D87AA3 /* CoreDataObjectModel.swift */; };
-		237FBABA1D9C0ADC00D87AA3 /* CoreDataObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA01D9C0ADC00D87AA3 /* CoreDataObjectModel.swift */; };
-		237FBABB1D9C0ADC00D87AA3 /* CoreDataObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA01D9C0ADC00D87AA3 /* CoreDataObjectModel.swift */; };
 		237FBABD1D9C0ADC00D87AA3 /* CoreDataObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA11D9C0ADC00D87AA3 /* CoreDataObservable.swift */; };
-		237FBABE1D9C0ADC00D87AA3 /* CoreDataObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA11D9C0ADC00D87AA3 /* CoreDataObservable.swift */; };
-		237FBABF1D9C0ADC00D87AA3 /* CoreDataObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA11D9C0ADC00D87AA3 /* CoreDataObservable.swift */; };
 		237FBAC11D9C0ADC00D87AA3 /* CoreDataOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA21D9C0ADC00D87AA3 /* CoreDataOptions.swift */; };
-		237FBAC21D9C0ADC00D87AA3 /* CoreDataOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA21D9C0ADC00D87AA3 /* CoreDataOptions.swift */; };
-		237FBAC31D9C0ADC00D87AA3 /* CoreDataOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA21D9C0ADC00D87AA3 /* CoreDataOptions.swift */; };
 		237FBAC51D9C0ADC00D87AA3 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA31D9C0ADC00D87AA3 /* CoreDataStore.swift */; };
-		237FBAC61D9C0ADC00D87AA3 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA31D9C0ADC00D87AA3 /* CoreDataStore.swift */; };
-		237FBAC71D9C0ADC00D87AA3 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA31D9C0ADC00D87AA3 /* CoreDataStore.swift */; };
 		237FBAC91D9C0ADC00D87AA3 /* CoreDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA51D9C0ADC00D87AA3 /* CoreDataError.swift */; };
-		237FBACA1D9C0ADC00D87AA3 /* CoreDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA51D9C0ADC00D87AA3 /* CoreDataError.swift */; };
-		237FBACB1D9C0ADC00D87AA3 /* CoreDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA51D9C0ADC00D87AA3 /* CoreDataError.swift */; };
 		237FBACD1D9C0ADC00D87AA3 /* NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA71D9C0ADC00D87AA3 /* NSManagedObject.swift */; };
-		237FBACE1D9C0ADC00D87AA3 /* NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA71D9C0ADC00D87AA3 /* NSManagedObject.swift */; };
-		237FBACF1D9C0ADC00D87AA3 /* NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA71D9C0ADC00D87AA3 /* NSManagedObject.swift */; };
 		237FBAD11D9C0ADC00D87AA3 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA81D9C0ADC00D87AA3 /* NSManagedObjectContext.swift */; };
-		237FBAD21D9C0ADC00D87AA3 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA81D9C0ADC00D87AA3 /* NSManagedObjectContext.swift */; };
-		237FBAD31D9C0ADC00D87AA3 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA81D9C0ADC00D87AA3 /* NSManagedObjectContext.swift */; };
 		237FBAD51D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA91D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift */; };
-		237FBAD61D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA91D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift */; };
-		237FBAD71D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA91D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift */; };
 		237FBAD91D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAAB1D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift */; };
-		237FBADA1D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAAB1D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift */; };
-		237FBADB1D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAAB1D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift */; };
 		237FBADD1D9C0ADC00D87AA3 /* CoreDataiCloudStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAAC1D9C0ADC00D87AA3 /* CoreDataiCloudStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2334C46A1D7DD8A500ACBC3A /* SugarRecordCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarRecordCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2334C4981D7DD90800ACBC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2334C49E1D7DD93600ACBC3A /* SugarRecordCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarRecordCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2334C4AB1D7DD95C00ACBC3A /* SugarRecordCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarRecordCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		237FBA171D9C0AD000D87AA3 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		237FBA181D9C0AD000D87AA3 /* RequestObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestObservable.swift; sourceTree = "<group>"; };
 		237FBA191D9C0AD000D87AA3 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
@@ -158,20 +104,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2334C49A1D7DD93600ACBC3A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2334C4A71D7DD95C00ACBC3A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -190,8 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				2334C46A1D7DD8A500ACBC3A /* SugarRecordCoreData.framework */,
-				2334C49E1D7DD93600ACBC3A /* SugarRecordCoreData.framework */,
-				2334C4AB1D7DD95C00ACBC3A /* SugarRecordCoreData.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -477,20 +407,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2334C49B1D7DD93600ACBC3A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2334C4A81D7DD95C00ACBC3A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -512,42 +428,6 @@
 			productReference = 2334C46A1D7DD8A500ACBC3A /* SugarRecordCoreData.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2334C49D1D7DD93600ACBC3A /* watchOSCoreData */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2334C4A31D7DD93600ACBC3A /* Build configuration list for PBXNativeTarget "watchOSCoreData" */;
-			buildPhases = (
-				2334C4991D7DD93600ACBC3A /* Sources */,
-				2334C49A1D7DD93600ACBC3A /* Frameworks */,
-				2334C49B1D7DD93600ACBC3A /* Headers */,
-				2334C49C1D7DD93600ACBC3A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = watchOSCoreData;
-			productName = watchOS;
-			productReference = 2334C49E1D7DD93600ACBC3A /* SugarRecordCoreData.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		2334C4AA1D7DD95C00ACBC3A /* tvOSCoreData */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2334C4B01D7DD95C00ACBC3A /* Build configuration list for PBXNativeTarget "tvOSCoreData" */;
-			buildPhases = (
-				2334C4A61D7DD95C00ACBC3A /* Sources */,
-				2334C4A71D7DD95C00ACBC3A /* Frameworks */,
-				2334C4A81D7DD95C00ACBC3A /* Headers */,
-				2334C4A91D7DD95C00ACBC3A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = tvOSCoreData;
-			productName = tvOS;
-			productReference = 2334C4AB1D7DD95C00ACBC3A /* SugarRecordCoreData.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -560,14 +440,6 @@
 					2334C4691D7DD8A500ACBC3A = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0940;
-					};
-					2334C49D1D7DD93600ACBC3A = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0800;
-					};
-					2334C4AA1D7DD95C00ACBC3A = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -584,28 +456,12 @@
 			projectRoot = "";
 			targets = (
 				2334C4691D7DD8A500ACBC3A /* iOSCoreData */,
-				2334C49D1D7DD93600ACBC3A /* watchOSCoreData */,
-				2334C4AA1D7DD95C00ACBC3A /* tvOSCoreData */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2334C4681D7DD8A500ACBC3A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2334C49C1D7DD93600ACBC3A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2334C4A91D7DD95C00ACBC3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -649,72 +505,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2334C4991D7DD93600ACBC3A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				237FBAC61D9C0ADC00D87AA3 /* CoreDataStore.swift in Sources */,
-				237FBAD21D9C0ADC00D87AA3 /* NSManagedObjectContext.swift in Sources */,
-				237FBADA1D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift in Sources */,
-				237FBA461D9C0AD000D87AA3 /* StorageError.swift in Sources */,
-				237FBAD61D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift in Sources */,
-				237FBAB61D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift in Sources */,
-				237FBA961D9C0AD000D87AA3 /* VersionProvider.swift in Sources */,
-				237FBA561D9C0AD000D87AA3 /* Logger.swift in Sources */,
-				237FBA361D9C0AD000D87AA3 /* RequestObservable.swift in Sources */,
-				237FBA761D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift in Sources */,
-				237FBACE1D9C0ADC00D87AA3 /* NSManagedObject.swift in Sources */,
-				237FBA5E1D9C0AD000D87AA3 /* Context.swift in Sources */,
-				237FBA861D9C0AD000D87AA3 /* DirUtils.swift in Sources */,
-				237FBABE1D9C0ADC00D87AA3 /* CoreDataObservable.swift in Sources */,
-				237FBA6E1D9C0AD000D87AA3 /* NSPredicateConvertible.swift in Sources */,
-				237FBAB21D9C0ADC00D87AA3 /* CoreDataContextParent.swift in Sources */,
-				237FBAC21D9C0ADC00D87AA3 /* CoreDataOptions.swift in Sources */,
-				237FBA661D9C0AD000D87AA3 /* Entity.swift in Sources */,
-				237FBA2E1D9C0AD000D87AA3 /* Request.swift in Sources */,
-				237FBAAE1D9C0ADC00D87AA3 /* CoreDataChange.swift in Sources */,
-				237FBA4E1D9C0AD000D87AA3 /* RequestExtension.swift in Sources */,
-				237FBA7E1D9C0AD000D87AA3 /* Requestable.swift in Sources */,
-				237FBABA1D9C0ADC00D87AA3 /* CoreDataObjectModel.swift in Sources */,
-				237FBACA1D9C0ADC00D87AA3 /* CoreDataError.swift in Sources */,
-				237FBA3E1D9C0AD000D87AA3 /* Storage.swift in Sources */,
-				237FBA8E1D9C0AD000D87AA3 /* VersionController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2334C4A61D7DD95C00ACBC3A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				237FBAC71D9C0ADC00D87AA3 /* CoreDataStore.swift in Sources */,
-				237FBAD31D9C0ADC00D87AA3 /* NSManagedObjectContext.swift in Sources */,
-				237FBADB1D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift in Sources */,
-				237FBA481D9C0AD000D87AA3 /* StorageError.swift in Sources */,
-				237FBAD71D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift in Sources */,
-				237FBAB71D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift in Sources */,
-				237FBA981D9C0AD000D87AA3 /* VersionProvider.swift in Sources */,
-				237FBA581D9C0AD000D87AA3 /* Logger.swift in Sources */,
-				237FBA381D9C0AD000D87AA3 /* RequestObservable.swift in Sources */,
-				237FBA781D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift in Sources */,
-				237FBACF1D9C0ADC00D87AA3 /* NSManagedObject.swift in Sources */,
-				237FBA601D9C0AD000D87AA3 /* Context.swift in Sources */,
-				237FBA881D9C0AD000D87AA3 /* DirUtils.swift in Sources */,
-				237FBABF1D9C0ADC00D87AA3 /* CoreDataObservable.swift in Sources */,
-				237FBA701D9C0AD000D87AA3 /* NSPredicateConvertible.swift in Sources */,
-				237FBAB31D9C0ADC00D87AA3 /* CoreDataContextParent.swift in Sources */,
-				237FBAC31D9C0ADC00D87AA3 /* CoreDataOptions.swift in Sources */,
-				237FBA681D9C0AD000D87AA3 /* Entity.swift in Sources */,
-				237FBA301D9C0AD000D87AA3 /* Request.swift in Sources */,
-				237FBAAF1D9C0ADC00D87AA3 /* CoreDataChange.swift in Sources */,
-				237FBA501D9C0AD000D87AA3 /* RequestExtension.swift in Sources */,
-				237FBA801D9C0AD000D87AA3 /* Requestable.swift in Sources */,
-				237FBABB1D9C0ADC00D87AA3 /* CoreDataObjectModel.swift in Sources */,
-				237FBACB1D9C0ADC00D87AA3 /* CoreDataError.swift in Sources */,
-				237FBA401D9C0AD000D87AA3 /* Storage.swift in Sources */,
-				237FBA901D9C0AD000D87AA3 /* VersionController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -750,6 +540,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -810,6 +601,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -840,6 +632,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -861,6 +654,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -871,100 +665,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		2334C4A41D7DD93600ACBC3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 237FBB241D9C0B1C00D87AA3 /* watchOS-Framework.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = in.caramba.watchOS;
-				PRODUCT_MODULE_NAME = SugarRecordCoreData;
-				PRODUCT_NAME = SugarRecordCoreData;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		2334C4A51D7DD93600ACBC3A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 237FBB241D9C0B1C00D87AA3 /* watchOS-Framework.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = in.caramba.watchOS;
-				PRODUCT_MODULE_NAME = SugarRecordCoreData;
-				PRODUCT_NAME = SugarRecordCoreData;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		2334C4B11D7DD95C00ACBC3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 237FBB1F1D9C0B1C00D87AA3 /* tvOS-Framework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = in.caramba.tvOS;
-				PRODUCT_MODULE_NAME = SugarRecordCoreData;
-				PRODUCT_NAME = SugarRecordCoreData;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		2334C4B21D7DD95C00ACBC3A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 237FBB1F1D9C0B1C00D87AA3 /* tvOS-Framework.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = in.caramba.tvOS;
-				PRODUCT_MODULE_NAME = SugarRecordCoreData;
-				PRODUCT_NAME = SugarRecordCoreData;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -985,24 +685,6 @@
 			buildConfigurations = (
 				2334C4731D7DD8A500ACBC3A /* Debug */,
 				2334C4741D7DD8A500ACBC3A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		2334C4A31D7DD93600ACBC3A /* Build configuration list for PBXNativeTarget "watchOSCoreData" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2334C4A41D7DD93600ACBC3A /* Debug */,
-				2334C4A51D7DD93600ACBC3A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		2334C4B01D7DD95C00ACBC3A /* Build configuration list for PBXNativeTarget "tvOSCoreData" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2334C4B11D7DD95C00ACBC3A /* Debug */,
-				2334C4B21D7DD95C00ACBC3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
