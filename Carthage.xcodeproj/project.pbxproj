@@ -7,93 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		237FBA2C1D9C0AD000D87AA3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA171D9C0AD000D87AA3 /* Request.swift */; };
-		237FBA341D9C0AD000D87AA3 /* RequestObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA181D9C0AD000D87AA3 /* RequestObservable.swift */; };
-		237FBA3C1D9C0AD000D87AA3 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA191D9C0AD000D87AA3 /* Storage.swift */; };
-		237FBA441D9C0AD000D87AA3 /* StorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1B1D9C0AD000D87AA3 /* StorageError.swift */; };
-		237FBA4C1D9C0AD000D87AA3 /* RequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1D1D9C0AD000D87AA3 /* RequestExtension.swift */; };
-		237FBA541D9C0AD000D87AA3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA1F1D9C0AD000D87AA3 /* Logger.swift */; };
-		237FBA5C1D9C0AD000D87AA3 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA211D9C0AD000D87AA3 /* Context.swift */; };
-		237FBA641D9C0AD000D87AA3 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA221D9C0AD000D87AA3 /* Entity.swift */; };
-		237FBA6C1D9C0AD000D87AA3 /* NSPredicateConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA231D9C0AD000D87AA3 /* NSPredicateConvertible.swift */; };
-		237FBA741D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA241D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift */; };
-		237FBA7C1D9C0AD000D87AA3 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA251D9C0AD000D87AA3 /* Requestable.swift */; };
-		237FBA841D9C0AD000D87AA3 /* DirUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA271D9C0AD000D87AA3 /* DirUtils.swift */; };
-		237FBA8C1D9C0AD000D87AA3 /* VersionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA291D9C0AD000D87AA3 /* VersionController.swift */; };
-		237FBA941D9C0AD000D87AA3 /* VersionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA2A1D9C0AD000D87AA3 /* VersionProvider.swift */; };
-		237FBAAD1D9C0ADC00D87AA3 /* CoreDataChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA9D1D9C0ADC00D87AA3 /* CoreDataChange.swift */; };
-		237FBAB11D9C0ADC00D87AA3 /* CoreDataContextParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA9E1D9C0ADC00D87AA3 /* CoreDataContextParent.swift */; };
-		237FBAB51D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBA9F1D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift */; };
-		237FBAB91D9C0ADC00D87AA3 /* CoreDataObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA01D9C0ADC00D87AA3 /* CoreDataObjectModel.swift */; };
-		237FBABD1D9C0ADC00D87AA3 /* CoreDataObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA11D9C0ADC00D87AA3 /* CoreDataObservable.swift */; };
-		237FBAC11D9C0ADC00D87AA3 /* CoreDataOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA21D9C0ADC00D87AA3 /* CoreDataOptions.swift */; };
-		237FBAC51D9C0ADC00D87AA3 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA31D9C0ADC00D87AA3 /* CoreDataStore.swift */; };
-		237FBAC91D9C0ADC00D87AA3 /* CoreDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA51D9C0ADC00D87AA3 /* CoreDataError.swift */; };
-		237FBACD1D9C0ADC00D87AA3 /* NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA71D9C0ADC00D87AA3 /* NSManagedObject.swift */; };
-		237FBAD11D9C0ADC00D87AA3 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA81D9C0ADC00D87AA3 /* NSManagedObjectContext.swift */; };
-		237FBAD51D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAA91D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift */; };
-		237FBAD91D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAAB1D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift */; };
-		237FBADD1D9C0ADC00D87AA3 /* CoreDataiCloudStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FBAAC1D9C0ADC00D87AA3 /* CoreDataiCloudStorage.swift */; };
+		473694332209670D00E9BC17 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736940C2209670D00E9BC17 /* Logger.swift */; };
+		473694342209670D00E9BC17 /* DirUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736940E2209670D00E9BC17 /* DirUtils.swift */; };
+		473694362209670D00E9BC17 /* VersionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694122209670D00E9BC17 /* VersionController.swift */; };
+		473694372209670D00E9BC17 /* VersionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694132209670D00E9BC17 /* VersionProvider.swift */; };
+		473694382209670D00E9BC17 /* StorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694152209670D00E9BC17 /* StorageError.swift */; };
+		473694392209670D00E9BC17 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694172209670D00E9BC17 /* Requestable.swift */; };
+		4736943A2209670D00E9BC17 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694182209670D00E9BC17 /* Entity.swift */; };
+		4736943B2209670D00E9BC17 /* NSSortDescriptorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694192209670D00E9BC17 /* NSSortDescriptorConvertible.swift */; };
+		4736943C2209670D00E9BC17 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736941A2209670D00E9BC17 /* Context.swift */; };
+		4736943D2209670D00E9BC17 /* NSPredicateConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736941B2209670D00E9BC17 /* NSPredicateConvertible.swift */; };
+		4736943E2209670D00E9BC17 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736941D2209670D00E9BC17 /* Storage.swift */; };
+		4736943F2209670D00E9BC17 /* RequestObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736941E2209670D00E9BC17 /* RequestObservable.swift */; };
+		473694402209670D00E9BC17 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736941F2209670D00E9BC17 /* Request.swift */; };
+		473694412209670D00E9BC17 /* CoreDataDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694222209670D00E9BC17 /* CoreDataDefaultStorage.swift */; };
+		473694422209670D00E9BC17 /* CoreDataiCloudStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694232209670D00E9BC17 /* CoreDataiCloudStorage.swift */; };
+		473694432209670D00E9BC17 /* NSManagedObjectMemoryContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694252209670D00E9BC17 /* NSManagedObjectMemoryContext.swift */; };
+		473694442209670D00E9BC17 /* NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694262209670D00E9BC17 /* NSManagedObject.swift */; };
+		473694452209670D00E9BC17 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694272209670D00E9BC17 /* NSManagedObjectContext.swift */; };
+		473694462209670D00E9BC17 /* CoreDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694292209670D00E9BC17 /* CoreDataError.swift */; };
+		473694472209670D00E9BC17 /* CoreDataOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736942B2209670D00E9BC17 /* CoreDataOptions.swift */; };
+		473694482209670D00E9BC17 /* CoreDataObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736942C2209670D00E9BC17 /* CoreDataObjectModel.swift */; };
+		473694492209670D00E9BC17 /* CoreDataChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736942D2209670D00E9BC17 /* CoreDataChange.swift */; };
+		4736944A2209670D00E9BC17 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736942E2209670D00E9BC17 /* CoreDataStore.swift */; };
+		4736944B2209670D00E9BC17 /* CoreDataObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736942F2209670D00E9BC17 /* CoreDataObservable.swift */; };
+		4736944C2209670D00E9BC17 /* CoreDataiCloudConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694302209670D00E9BC17 /* CoreDataiCloudConfig.swift */; };
+		4736944D2209670D00E9BC17 /* CoreDataContextParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694312209670D00E9BC17 /* CoreDataContextParent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2334C46A1D7DD8A500ACBC3A /* SugarRecordCoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SugarRecordCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2334C4981D7DD90800ACBC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		237FBA171D9C0AD000D87AA3 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		237FBA181D9C0AD000D87AA3 /* RequestObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestObservable.swift; sourceTree = "<group>"; };
-		237FBA191D9C0AD000D87AA3 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
-		237FBA1B1D9C0AD000D87AA3 /* StorageError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageError.swift; sourceTree = "<group>"; };
-		237FBA1D1D9C0AD000D87AA3 /* RequestExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestExtension.swift; sourceTree = "<group>"; };
-		237FBA1F1D9C0AD000D87AA3 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		237FBA211D9C0AD000D87AA3 /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
-		237FBA221D9C0AD000D87AA3 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
-		237FBA231D9C0AD000D87AA3 /* NSPredicateConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSPredicateConvertible.swift; sourceTree = "<group>"; };
-		237FBA241D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSSortDescriptorConvertible.swift; sourceTree = "<group>"; };
-		237FBA251D9C0AD000D87AA3 /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
-		237FBA271D9C0AD000D87AA3 /* DirUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirUtils.swift; sourceTree = "<group>"; };
-		237FBA291D9C0AD000D87AA3 /* VersionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionController.swift; sourceTree = "<group>"; };
-		237FBA2A1D9C0AD000D87AA3 /* VersionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionProvider.swift; sourceTree = "<group>"; };
-		237FBA9D1D9C0ADC00D87AA3 /* CoreDataChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataChange.swift; sourceTree = "<group>"; };
-		237FBA9E1D9C0ADC00D87AA3 /* CoreDataContextParent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataContextParent.swift; sourceTree = "<group>"; };
-		237FBA9F1D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataiCloudConfig.swift; sourceTree = "<group>"; };
-		237FBAA01D9C0ADC00D87AA3 /* CoreDataObjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataObjectModel.swift; sourceTree = "<group>"; };
-		237FBAA11D9C0ADC00D87AA3 /* CoreDataObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataObservable.swift; sourceTree = "<group>"; };
-		237FBAA21D9C0ADC00D87AA3 /* CoreDataOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataOptions.swift; sourceTree = "<group>"; };
-		237FBAA31D9C0ADC00D87AA3 /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
-		237FBAA51D9C0ADC00D87AA3 /* CoreDataError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataError.swift; sourceTree = "<group>"; };
-		237FBAA71D9C0ADC00D87AA3 /* NSManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObject.swift; sourceTree = "<group>"; };
-		237FBAA81D9C0ADC00D87AA3 /* NSManagedObjectContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObjectContext.swift; sourceTree = "<group>"; };
-		237FBAA91D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObjectMemoryContext.swift; sourceTree = "<group>"; };
-		237FBAAB1D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDefaultStorage.swift; sourceTree = "<group>"; };
-		237FBAAC1D9C0ADC00D87AA3 /* CoreDataiCloudStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataiCloudStorage.swift; sourceTree = "<group>"; };
-		237FBB041D9C0B1C00D87AA3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		237FBB061D9C0B1C00D87AA3 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		237FBB081D9C0B1C00D87AA3 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		237FBB091D9C0B1C00D87AA3 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Profile.xcconfig; sourceTree = "<group>"; };
-		237FBB0A1D9C0B1C00D87AA3 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		237FBB0B1D9C0B1C00D87AA3 /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Test.xcconfig; sourceTree = "<group>"; };
-		237FBB0D1D9C0B1C00D87AA3 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
-		237FBB0E1D9C0B1C00D87AA3 /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
-		237FBB0F1D9C0B1C00D87AA3 /* StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibrary.xcconfig; sourceTree = "<group>"; };
-		237FBB111D9C0B1C00D87AA3 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
-		237FBB121D9C0B1C00D87AA3 /* iOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Base.xcconfig"; sourceTree = "<group>"; };
-		237FBB131D9C0B1C00D87AA3 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
-		237FBB141D9C0B1C00D87AA3 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		237FBB161D9C0B1C00D87AA3 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
-		237FBB171D9C0B1C00D87AA3 /* Mac-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Base.xcconfig"; sourceTree = "<group>"; };
-		237FBB181D9C0B1C00D87AA3 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
-		237FBB191D9C0B1C00D87AA3 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
-		237FBB1A1D9C0B1C00D87AA3 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		237FBB1B1D9C0B1C00D87AA3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		237FBB1D1D9C0B1C00D87AA3 /* tvOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Application.xcconfig"; sourceTree = "<group>"; };
-		237FBB1E1D9C0B1C00D87AA3 /* tvOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Base.xcconfig"; sourceTree = "<group>"; };
-		237FBB1F1D9C0B1C00D87AA3 /* tvOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-Framework.xcconfig"; sourceTree = "<group>"; };
-		237FBB201D9C0B1C00D87AA3 /* tvOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "tvOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		237FBB221D9C0B1C00D87AA3 /* watchOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Application.xcconfig"; sourceTree = "<group>"; };
-		237FBB231D9C0B1C00D87AA3 /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
-		237FBB241D9C0B1C00D87AA3 /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
-		237FBB251D9C0B1C00D87AA3 /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		23E15DAF1D7DE1000073CC71 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4736940C2209670D00E9BC17 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		4736940E2209670D00E9BC17 /* DirUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirUtils.swift; sourceTree = "<group>"; };
+		473694122209670D00E9BC17 /* VersionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionController.swift; sourceTree = "<group>"; };
+		473694132209670D00E9BC17 /* VersionProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionProvider.swift; sourceTree = "<group>"; };
+		473694152209670D00E9BC17 /* StorageError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageError.swift; sourceTree = "<group>"; };
+		473694172209670D00E9BC17 /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		473694182209670D00E9BC17 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		473694192209670D00E9BC17 /* NSSortDescriptorConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSSortDescriptorConvertible.swift; sourceTree = "<group>"; };
+		4736941A2209670D00E9BC17 /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		4736941B2209670D00E9BC17 /* NSPredicateConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSPredicateConvertible.swift; sourceTree = "<group>"; };
+		4736941D2209670D00E9BC17 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		4736941E2209670D00E9BC17 /* RequestObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestObservable.swift; sourceTree = "<group>"; };
+		4736941F2209670D00E9BC17 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		473694222209670D00E9BC17 /* CoreDataDefaultStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDefaultStorage.swift; sourceTree = "<group>"; };
+		473694232209670D00E9BC17 /* CoreDataiCloudStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataiCloudStorage.swift; sourceTree = "<group>"; };
+		473694252209670D00E9BC17 /* NSManagedObjectMemoryContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObjectMemoryContext.swift; sourceTree = "<group>"; };
+		473694262209670D00E9BC17 /* NSManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObject.swift; sourceTree = "<group>"; };
+		473694272209670D00E9BC17 /* NSManagedObjectContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObjectContext.swift; sourceTree = "<group>"; };
+		473694292209670D00E9BC17 /* CoreDataError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataError.swift; sourceTree = "<group>"; };
+		4736942B2209670D00E9BC17 /* CoreDataOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataOptions.swift; sourceTree = "<group>"; };
+		4736942C2209670D00E9BC17 /* CoreDataObjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataObjectModel.swift; sourceTree = "<group>"; };
+		4736942D2209670D00E9BC17 /* CoreDataChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataChange.swift; sourceTree = "<group>"; };
+		4736942E2209670D00E9BC17 /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
+		4736942F2209670D00E9BC17 /* CoreDataObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataObservable.swift; sourceTree = "<group>"; };
+		473694302209670D00E9BC17 /* CoreDataiCloudConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataiCloudConfig.swift; sourceTree = "<group>"; };
+		473694312209670D00E9BC17 /* CoreDataContextParent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataContextParent.swift; sourceTree = "<group>"; };
+		473694322209670D00E9BC17 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +81,7 @@
 		2334C4601D7DD8A500ACBC3A = {
 			isa = PBXGroup;
 			children = (
-				2334C4981D7DD90800ACBC3A /* Info.plist */,
-				237FBB031D9C0B1C00D87AA3 /* Config */,
-				23E15C821D7DDE490073CC71 /* Source */,
+				473694082209670D00E9BC17 /* SugarRecord */,
 				2334C4E81D7DDB6400ACBC3A /* Frameworks */,
 				2334C46B1D7DD8A500ACBC3A /* Products */,
 			);
@@ -166,235 +135,142 @@
 			name = watchOS;
 			sourceTree = "<group>";
 		};
-		237FBA151D9C0AD000D87AA3 /* Foundation */ = {
+		473694082209670D00E9BC17 /* SugarRecord */ = {
 			isa = PBXGroup;
 			children = (
-				237FBA161D9C0AD000D87AA3 /* Entities */,
-				237FBA1A1D9C0AD000D87AA3 /* Errors */,
-				237FBA1C1D9C0AD000D87AA3 /* Extensions */,
-				237FBA1E1D9C0AD000D87AA3 /* Logger */,
-				237FBA201D9C0AD000D87AA3 /* Protocols */,
-				237FBA261D9C0AD000D87AA3 /* Utils */,
-				237FBA281D9C0AD000D87AA3 /* Version */,
+				473694092209670D00E9BC17 /* Source */,
+				473694322209670D00E9BC17 /* Info.plist */,
 			);
-			name = Foundation;
-			path = SugarRecord/Source/Foundation;
-			sourceTree = SOURCE_ROOT;
-		};
-		237FBA161D9C0AD000D87AA3 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-				237FBA171D9C0AD000D87AA3 /* Request.swift */,
-				237FBA181D9C0AD000D87AA3 /* RequestObservable.swift */,
-				237FBA191D9C0AD000D87AA3 /* Storage.swift */,
-			);
-			path = Entities;
+			path = SugarRecord;
 			sourceTree = "<group>";
 		};
-		237FBA1A1D9C0AD000D87AA3 /* Errors */ = {
+		473694092209670D00E9BC17 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				237FBA1B1D9C0AD000D87AA3 /* StorageError.swift */,
+				4736940A2209670D00E9BC17 /* Foundation */,
+				473694202209670D00E9BC17 /* CoreData */,
 			);
-			path = Errors;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		237FBA1C1D9C0AD000D87AA3 /* Extensions */ = {
+		4736940A2209670D00E9BC17 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				237FBA1D1D9C0AD000D87AA3 /* RequestExtension.swift */,
+				4736940B2209670D00E9BC17 /* Logger */,
+				4736940D2209670D00E9BC17 /* Utils */,
+				473694112209670D00E9BC17 /* Version */,
+				473694142209670D00E9BC17 /* Errors */,
+				473694162209670D00E9BC17 /* Protocols */,
+				4736941C2209670D00E9BC17 /* Entities */,
 			);
-			path = Extensions;
+			path = Foundation;
 			sourceTree = "<group>";
 		};
-		237FBA1E1D9C0AD000D87AA3 /* Logger */ = {
+		4736940B2209670D00E9BC17 /* Logger */ = {
 			isa = PBXGroup;
 			children = (
-				237FBA1F1D9C0AD000D87AA3 /* Logger.swift */,
+				4736940C2209670D00E9BC17 /* Logger.swift */,
 			);
 			path = Logger;
 			sourceTree = "<group>";
 		};
-		237FBA201D9C0AD000D87AA3 /* Protocols */ = {
+		4736940D2209670D00E9BC17 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				237FBA211D9C0AD000D87AA3 /* Context.swift */,
-				237FBA221D9C0AD000D87AA3 /* Entity.swift */,
-				237FBA231D9C0AD000D87AA3 /* NSPredicateConvertible.swift */,
-				237FBA241D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift */,
-				237FBA251D9C0AD000D87AA3 /* Requestable.swift */,
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		237FBA261D9C0AD000D87AA3 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				237FBA271D9C0AD000D87AA3 /* DirUtils.swift */,
+				4736940E2209670D00E9BC17 /* DirUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		237FBA281D9C0AD000D87AA3 /* Version */ = {
+		473694112209670D00E9BC17 /* Version */ = {
 			isa = PBXGroup;
 			children = (
-				237FBA291D9C0AD000D87AA3 /* VersionController.swift */,
-				237FBA2A1D9C0AD000D87AA3 /* VersionProvider.swift */,
+				473694122209670D00E9BC17 /* VersionController.swift */,
+				473694132209670D00E9BC17 /* VersionProvider.swift */,
 			);
 			path = Version;
 			sourceTree = "<group>";
 		};
-		237FBA9B1D9C0ADC00D87AA3 /* CoreData */ = {
+		473694142209670D00E9BC17 /* Errors */ = {
 			isa = PBXGroup;
 			children = (
-				237FBA9C1D9C0ADC00D87AA3 /* Entities */,
-				237FBAA41D9C0ADC00D87AA3 /* Errors */,
-				237FBAA61D9C0ADC00D87AA3 /* Extensions */,
-				237FBAAA1D9C0ADC00D87AA3 /* Storages */,
-			);
-			name = CoreData;
-			path = SugarRecord/Source/CoreData;
-			sourceTree = SOURCE_ROOT;
-		};
-		237FBA9C1D9C0ADC00D87AA3 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-				237FBA9D1D9C0ADC00D87AA3 /* CoreDataChange.swift */,
-				237FBA9E1D9C0ADC00D87AA3 /* CoreDataContextParent.swift */,
-				237FBA9F1D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift */,
-				237FBAA01D9C0ADC00D87AA3 /* CoreDataObjectModel.swift */,
-				237FBAA11D9C0ADC00D87AA3 /* CoreDataObservable.swift */,
-				237FBAA21D9C0ADC00D87AA3 /* CoreDataOptions.swift */,
-				237FBAA31D9C0ADC00D87AA3 /* CoreDataStore.swift */,
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		237FBAA41D9C0ADC00D87AA3 /* Errors */ = {
-			isa = PBXGroup;
-			children = (
-				237FBAA51D9C0ADC00D87AA3 /* CoreDataError.swift */,
+				473694152209670D00E9BC17 /* StorageError.swift */,
 			);
 			path = Errors;
 			sourceTree = "<group>";
 		};
-		237FBAA61D9C0ADC00D87AA3 /* Extensions */ = {
+		473694162209670D00E9BC17 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				237FBAA71D9C0ADC00D87AA3 /* NSManagedObject.swift */,
-				237FBAA81D9C0ADC00D87AA3 /* NSManagedObjectContext.swift */,
-				237FBAA91D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift */,
+				473694172209670D00E9BC17 /* Requestable.swift */,
+				473694182209670D00E9BC17 /* Entity.swift */,
+				473694192209670D00E9BC17 /* NSSortDescriptorConvertible.swift */,
+				4736941A2209670D00E9BC17 /* Context.swift */,
+				4736941B2209670D00E9BC17 /* NSPredicateConvertible.swift */,
 			);
-			path = Extensions;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
-		237FBAAA1D9C0ADC00D87AA3 /* Storages */ = {
+		4736941C2209670D00E9BC17 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				237FBAAB1D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift */,
-				237FBAAC1D9C0ADC00D87AA3 /* CoreDataiCloudStorage.swift */,
+				4736941D2209670D00E9BC17 /* Storage.swift */,
+				4736941E2209670D00E9BC17 /* RequestObservable.swift */,
+				4736941F2209670D00E9BC17 /* Request.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		473694202209670D00E9BC17 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				473694212209670D00E9BC17 /* Storages */,
+				473694242209670D00E9BC17 /* Extensions */,
+				473694282209670D00E9BC17 /* Errors */,
+				4736942A2209670D00E9BC17 /* Entities */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		473694212209670D00E9BC17 /* Storages */ = {
+			isa = PBXGroup;
+			children = (
+				473694222209670D00E9BC17 /* CoreDataDefaultStorage.swift */,
+				473694232209670D00E9BC17 /* CoreDataiCloudStorage.swift */,
 			);
 			path = Storages;
 			sourceTree = "<group>";
 		};
-		237FBB031D9C0B1C00D87AA3 /* Config */ = {
+		473694242209670D00E9BC17 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				237FBB041D9C0B1C00D87AA3 /* .gitignore */,
-				237FBB051D9C0B1C00D87AA3 /* Base */,
-				237FBB101D9C0B1C00D87AA3 /* iOS */,
-				237FBB151D9C0B1C00D87AA3 /* Mac OS X */,
-				237FBB1B1D9C0B1C00D87AA3 /* README.md */,
-				237FBB1C1D9C0B1C00D87AA3 /* tvOS */,
-				237FBB211D9C0B1C00D87AA3 /* watchOS */,
+				473694252209670D00E9BC17 /* NSManagedObjectMemoryContext.swift */,
+				473694262209670D00E9BC17 /* NSManagedObject.swift */,
+				473694272209670D00E9BC17 /* NSManagedObjectContext.swift */,
 			);
-			path = Config;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		237FBB051D9C0B1C00D87AA3 /* Base */ = {
+		473694282209670D00E9BC17 /* Errors */ = {
 			isa = PBXGroup;
 			children = (
-				237FBB061D9C0B1C00D87AA3 /* Common.xcconfig */,
-				237FBB071D9C0B1C00D87AA3 /* Configurations */,
-				237FBB0C1D9C0B1C00D87AA3 /* Targets */,
+				473694292209670D00E9BC17 /* CoreDataError.swift */,
 			);
-			path = Base;
+			path = Errors;
 			sourceTree = "<group>";
 		};
-		237FBB071D9C0B1C00D87AA3 /* Configurations */ = {
+		4736942A2209670D00E9BC17 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				237FBB081D9C0B1C00D87AA3 /* Debug.xcconfig */,
-				237FBB091D9C0B1C00D87AA3 /* Profile.xcconfig */,
-				237FBB0A1D9C0B1C00D87AA3 /* Release.xcconfig */,
-				237FBB0B1D9C0B1C00D87AA3 /* Test.xcconfig */,
+				4736942B2209670D00E9BC17 /* CoreDataOptions.swift */,
+				4736942C2209670D00E9BC17 /* CoreDataObjectModel.swift */,
+				4736942D2209670D00E9BC17 /* CoreDataChange.swift */,
+				4736942E2209670D00E9BC17 /* CoreDataStore.swift */,
+				4736942F2209670D00E9BC17 /* CoreDataObservable.swift */,
+				473694302209670D00E9BC17 /* CoreDataiCloudConfig.swift */,
+				473694312209670D00E9BC17 /* CoreDataContextParent.swift */,
 			);
-			path = Configurations;
-			sourceTree = "<group>";
-		};
-		237FBB0C1D9C0B1C00D87AA3 /* Targets */ = {
-			isa = PBXGroup;
-			children = (
-				237FBB0D1D9C0B1C00D87AA3 /* Application.xcconfig */,
-				237FBB0E1D9C0B1C00D87AA3 /* Framework.xcconfig */,
-				237FBB0F1D9C0B1C00D87AA3 /* StaticLibrary.xcconfig */,
-			);
-			path = Targets;
-			sourceTree = "<group>";
-		};
-		237FBB101D9C0B1C00D87AA3 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				237FBB111D9C0B1C00D87AA3 /* iOS-Application.xcconfig */,
-				237FBB121D9C0B1C00D87AA3 /* iOS-Base.xcconfig */,
-				237FBB131D9C0B1C00D87AA3 /* iOS-Framework.xcconfig */,
-				237FBB141D9C0B1C00D87AA3 /* iOS-StaticLibrary.xcconfig */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		237FBB151D9C0B1C00D87AA3 /* Mac OS X */ = {
-			isa = PBXGroup;
-			children = (
-				237FBB161D9C0B1C00D87AA3 /* Mac-Application.xcconfig */,
-				237FBB171D9C0B1C00D87AA3 /* Mac-Base.xcconfig */,
-				237FBB181D9C0B1C00D87AA3 /* Mac-DynamicLibrary.xcconfig */,
-				237FBB191D9C0B1C00D87AA3 /* Mac-Framework.xcconfig */,
-				237FBB1A1D9C0B1C00D87AA3 /* Mac-StaticLibrary.xcconfig */,
-			);
-			path = "Mac OS X";
-			sourceTree = "<group>";
-		};
-		237FBB1C1D9C0B1C00D87AA3 /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				237FBB1D1D9C0B1C00D87AA3 /* tvOS-Application.xcconfig */,
-				237FBB1E1D9C0B1C00D87AA3 /* tvOS-Base.xcconfig */,
-				237FBB1F1D9C0B1C00D87AA3 /* tvOS-Framework.xcconfig */,
-				237FBB201D9C0B1C00D87AA3 /* tvOS-StaticLibrary.xcconfig */,
-			);
-			path = tvOS;
-			sourceTree = "<group>";
-		};
-		237FBB211D9C0B1C00D87AA3 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				237FBB221D9C0B1C00D87AA3 /* watchOS-Application.xcconfig */,
-				237FBB231D9C0B1C00D87AA3 /* watchOS-Base.xcconfig */,
-				237FBB241D9C0B1C00D87AA3 /* watchOS-Framework.xcconfig */,
-				237FBB251D9C0B1C00D87AA3 /* watchOS-StaticLibrary.xcconfig */,
-			);
-			path = watchOS;
-			sourceTree = "<group>";
-		};
-		23E15C821D7DDE490073CC71 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				237FBA9B1D9C0ADC00D87AA3 /* CoreData */,
-				237FBA151D9C0AD000D87AA3 /* Foundation */,
-			);
-			name = Source;
-			path = ../SugarRecord/Source;
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -475,33 +351,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				237FBAC51D9C0ADC00D87AA3 /* CoreDataStore.swift in Sources */,
-				237FBAD11D9C0ADC00D87AA3 /* NSManagedObjectContext.swift in Sources */,
-				237FBAD91D9C0ADC00D87AA3 /* CoreDataDefaultStorage.swift in Sources */,
-				237FBA441D9C0AD000D87AA3 /* StorageError.swift in Sources */,
-				237FBAD51D9C0ADC00D87AA3 /* NSManagedObjectMemoryContext.swift in Sources */,
-				237FBAB51D9C0ADC00D87AA3 /* CoreDataiCloudConfig.swift in Sources */,
-				237FBA941D9C0AD000D87AA3 /* VersionProvider.swift in Sources */,
-				237FBA541D9C0AD000D87AA3 /* Logger.swift in Sources */,
-				237FBA341D9C0AD000D87AA3 /* RequestObservable.swift in Sources */,
-				237FBADD1D9C0ADC00D87AA3 /* CoreDataiCloudStorage.swift in Sources */,
-				237FBA741D9C0AD000D87AA3 /* NSSortDescriptorConvertible.swift in Sources */,
-				237FBACD1D9C0ADC00D87AA3 /* NSManagedObject.swift in Sources */,
-				237FBA5C1D9C0AD000D87AA3 /* Context.swift in Sources */,
-				237FBA841D9C0AD000D87AA3 /* DirUtils.swift in Sources */,
-				237FBABD1D9C0ADC00D87AA3 /* CoreDataObservable.swift in Sources */,
-				237FBA6C1D9C0AD000D87AA3 /* NSPredicateConvertible.swift in Sources */,
-				237FBAB11D9C0ADC00D87AA3 /* CoreDataContextParent.swift in Sources */,
-				237FBAC11D9C0ADC00D87AA3 /* CoreDataOptions.swift in Sources */,
-				237FBA641D9C0AD000D87AA3 /* Entity.swift in Sources */,
-				237FBA2C1D9C0AD000D87AA3 /* Request.swift in Sources */,
-				237FBAAD1D9C0ADC00D87AA3 /* CoreDataChange.swift in Sources */,
-				237FBA4C1D9C0AD000D87AA3 /* RequestExtension.swift in Sources */,
-				237FBA7C1D9C0AD000D87AA3 /* Requestable.swift in Sources */,
-				237FBAB91D9C0ADC00D87AA3 /* CoreDataObjectModel.swift in Sources */,
-				237FBAC91D9C0ADC00D87AA3 /* CoreDataError.swift in Sources */,
-				237FBA3C1D9C0AD000D87AA3 /* Storage.swift in Sources */,
-				237FBA8C1D9C0AD000D87AA3 /* VersionController.swift in Sources */,
+				473694362209670D00E9BC17 /* VersionController.swift in Sources */,
+				473694392209670D00E9BC17 /* Requestable.swift in Sources */,
+				4736944C2209670D00E9BC17 /* CoreDataiCloudConfig.swift in Sources */,
+				473694332209670D00E9BC17 /* Logger.swift in Sources */,
+				4736943C2209670D00E9BC17 /* Context.swift in Sources */,
+				473694382209670D00E9BC17 /* StorageError.swift in Sources */,
+				4736943F2209670D00E9BC17 /* RequestObservable.swift in Sources */,
+				4736944A2209670D00E9BC17 /* CoreDataStore.swift in Sources */,
+				4736943E2209670D00E9BC17 /* Storage.swift in Sources */,
+				473694462209670D00E9BC17 /* CoreDataError.swift in Sources */,
+				473694412209670D00E9BC17 /* CoreDataDefaultStorage.swift in Sources */,
+				473694482209670D00E9BC17 /* CoreDataObjectModel.swift in Sources */,
+				4736943A2209670D00E9BC17 /* Entity.swift in Sources */,
+				473694492209670D00E9BC17 /* CoreDataChange.swift in Sources */,
+				473694452209670D00E9BC17 /* NSManagedObjectContext.swift in Sources */,
+				473694432209670D00E9BC17 /* NSManagedObjectMemoryContext.swift in Sources */,
+				473694342209670D00E9BC17 /* DirUtils.swift in Sources */,
+				4736943B2209670D00E9BC17 /* NSSortDescriptorConvertible.swift in Sources */,
+				4736944B2209670D00E9BC17 /* CoreDataObservable.swift in Sources */,
+				473694442209670D00E9BC17 /* NSManagedObject.swift in Sources */,
+				473694402209670D00E9BC17 /* Request.swift in Sources */,
+				4736943D2209670D00E9BC17 /* NSPredicateConvertible.swift in Sources */,
+				4736944D2209670D00E9BC17 /* CoreDataContextParent.swift in Sources */,
+				473694472209670D00E9BC17 /* CoreDataOptions.swift in Sources */,
+				473694422209670D00E9BC17 /* CoreDataiCloudStorage.swift in Sources */,
+				473694372209670D00E9BC17 /* VersionProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,7 +385,6 @@
 /* Begin XCBuildConfiguration section */
 		2334C4701D7DD8A500ACBC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 237FBB081D9C0B1C00D87AA3 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -571,7 +445,6 @@
 		};
 		2334C4711D7DD8A500ACBC3A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 237FBB0A1D9C0B1C00D87AA3 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -626,7 +499,6 @@
 		};
 		2334C4731D7DD8A500ACBC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 237FBB131D9C0B1C00D87AA3 /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -642,13 +514,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		2334C4741D7DD8A500ACBC3A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 237FBB131D9C0B1C00D87AA3 /* iOS-Framework.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -664,7 +535,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
