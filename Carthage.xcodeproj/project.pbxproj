@@ -99,19 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				23E15DAF1D7DE1000073CC71 /* CoreData.framework */,
-				2334C4EC1D7DDB7C00ACBC3A /* watchOS */,
-				2334C4EB1D7DDB7700ACBC3A /* macOS */,
 				2334C4EA1D7DDB7100ACBC3A /* iOS */,
-				2334C4E91D7DDB6D00ACBC3A /* tvOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2334C4E91D7DDB6D00ACBC3A /* tvOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = tvOS;
 			sourceTree = "<group>";
 		};
 		2334C4EA1D7DDB7100ACBC3A /* iOS */ = {
@@ -119,20 +109,6 @@
 			children = (
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		2334C4EB1D7DDB7700ACBC3A /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = macOS;
-			sourceTree = "<group>";
-		};
-		2334C4EC1D7DDB7C00ACBC3A /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = watchOS;
 			sourceTree = "<group>";
 		};
 		473694082209670D00E9BC17 /* SugarRecord */ = {
