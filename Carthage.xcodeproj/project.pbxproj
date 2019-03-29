@@ -21,7 +21,6 @@
 		4736943F2209670D00E9BC17 /* RequestObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736941E2209670D00E9BC17 /* RequestObservable.swift */; };
 		473694402209670D00E9BC17 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736941F2209670D00E9BC17 /* Request.swift */; };
 		473694412209670D00E9BC17 /* CoreDataDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694222209670D00E9BC17 /* CoreDataDefaultStorage.swift */; };
-		473694422209670D00E9BC17 /* CoreDataiCloudStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694232209670D00E9BC17 /* CoreDataiCloudStorage.swift */; };
 		473694432209670D00E9BC17 /* NSManagedObjectMemoryContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694252209670D00E9BC17 /* NSManagedObjectMemoryContext.swift */; };
 		473694442209670D00E9BC17 /* NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694262209670D00E9BC17 /* NSManagedObject.swift */; };
 		473694452209670D00E9BC17 /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694272209670D00E9BC17 /* NSManagedObjectContext.swift */; };
@@ -31,7 +30,6 @@
 		473694492209670D00E9BC17 /* CoreDataChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736942D2209670D00E9BC17 /* CoreDataChange.swift */; };
 		4736944A2209670D00E9BC17 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736942E2209670D00E9BC17 /* CoreDataStore.swift */; };
 		4736944B2209670D00E9BC17 /* CoreDataObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4736942F2209670D00E9BC17 /* CoreDataObservable.swift */; };
-		4736944C2209670D00E9BC17 /* CoreDataiCloudConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694302209670D00E9BC17 /* CoreDataiCloudConfig.swift */; };
 		4736944D2209670D00E9BC17 /* CoreDataContextParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473694312209670D00E9BC17 /* CoreDataContextParent.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +50,6 @@
 		4736941E2209670D00E9BC17 /* RequestObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestObservable.swift; sourceTree = "<group>"; };
 		4736941F2209670D00E9BC17 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		473694222209670D00E9BC17 /* CoreDataDefaultStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDefaultStorage.swift; sourceTree = "<group>"; };
-		473694232209670D00E9BC17 /* CoreDataiCloudStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataiCloudStorage.swift; sourceTree = "<group>"; };
 		473694252209670D00E9BC17 /* NSManagedObjectMemoryContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObjectMemoryContext.swift; sourceTree = "<group>"; };
 		473694262209670D00E9BC17 /* NSManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObject.swift; sourceTree = "<group>"; };
 		473694272209670D00E9BC17 /* NSManagedObjectContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSManagedObjectContext.swift; sourceTree = "<group>"; };
@@ -62,7 +59,6 @@
 		4736942D2209670D00E9BC17 /* CoreDataChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataChange.swift; sourceTree = "<group>"; };
 		4736942E2209670D00E9BC17 /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
 		4736942F2209670D00E9BC17 /* CoreDataObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataObservable.swift; sourceTree = "<group>"; };
-		473694302209670D00E9BC17 /* CoreDataiCloudConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataiCloudConfig.swift; sourceTree = "<group>"; };
 		473694312209670D00E9BC17 /* CoreDataContextParent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataContextParent.swift; sourceTree = "<group>"; };
 		473694322209670D00E9BC17 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -212,7 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				473694222209670D00E9BC17 /* CoreDataDefaultStorage.swift */,
-				473694232209670D00E9BC17 /* CoreDataiCloudStorage.swift */,
 			);
 			path = Storages;
 			sourceTree = "<group>";
@@ -243,7 +238,6 @@
 				4736942D2209670D00E9BC17 /* CoreDataChange.swift */,
 				4736942E2209670D00E9BC17 /* CoreDataStore.swift */,
 				4736942F2209670D00E9BC17 /* CoreDataObservable.swift */,
-				473694302209670D00E9BC17 /* CoreDataiCloudConfig.swift */,
 				473694312209670D00E9BC17 /* CoreDataContextParent.swift */,
 			);
 			path = Entities;
@@ -330,7 +324,6 @@
 			files = (
 				473694362209670D00E9BC17 /* VersionController.swift in Sources */,
 				473694392209670D00E9BC17 /* Requestable.swift in Sources */,
-				4736944C2209670D00E9BC17 /* CoreDataiCloudConfig.swift in Sources */,
 				473694332209670D00E9BC17 /* Logger.swift in Sources */,
 				4736943C2209670D00E9BC17 /* Context.swift in Sources */,
 				473694382209670D00E9BC17 /* StorageError.swift in Sources */,
@@ -352,7 +345,6 @@
 				4736943D2209670D00E9BC17 /* NSPredicateConvertible.swift in Sources */,
 				4736944D2209670D00E9BC17 /* CoreDataContextParent.swift in Sources */,
 				473694472209670D00E9BC17 /* CoreDataOptions.swift in Sources */,
-				473694422209670D00E9BC17 /* CoreDataiCloudStorage.swift in Sources */,
 				473694372209670D00E9BC17 /* VersionProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -462,7 +454,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
