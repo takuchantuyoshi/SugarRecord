@@ -291,16 +291,17 @@
 				TargetAttributes = {
 					2334C4691D7DD8A500ACBC3A = {
 						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = 2334C4641D7DD8A500ACBC3A /* Build configuration list for PBXProject "Carthage" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2334C4601D7DD8A500ACBC3A;
 			productRefGroup = 2334C46B1D7DD8A500ACBC3A /* Products */;
@@ -489,8 +490,7 @@
 				PRODUCT_NAME = SugarRecordCoreData;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -510,8 +510,7 @@
 				PRODUCT_NAME = SugarRecordCoreData;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
